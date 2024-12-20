@@ -88,6 +88,7 @@ header{
     color: var(--main-color);
 }
 .home-text h2{
+    border: 2px solid red;
     font-size: var(--h2-font);
     margin: 1rem 0 1rem;
 }
@@ -318,6 +319,16 @@ header{
     }
     .connect .btn{
         margin-top: 1rem;
+    }
+    .copyright{
+        font-size: 10px;
+        margin-left: 2rem;
+    }
+    .home-text h2{
+        font-size: 1.1rem;
+    }
+    .home-text h1{
+        font-size: 1.5rem;
     }
 }
 @media (max-width:450px){
